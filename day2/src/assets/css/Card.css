@@ -1,20 +1,20 @@
 .main{
     position: relative;
-    top: 50px;
+    top: 20px;
     left: 300px;
     height:16em ;
-    width: 10%;
+    width: 170px;
     padding: 5px 10px;
     margin: 20px;
-    /* text-align: center; */
-    /* justify-content: center; */
     border: 1px solid #000000;
     border-radius: 20px;
     background-color: transparent;
     font-size: 15px;
-    display: inline-block ;
+    display: inline-block;
+    
 
 }
+
 
 .main:hover{
     background-color: rgb(75, 109, 118);

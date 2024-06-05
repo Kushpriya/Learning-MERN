@@ -11,7 +11,7 @@ class App extends React.Component{
     return ( <div>
     {/* <Nav/> */}
 
-    <Card image={Image1} name="Vijay" para="Hello from Hajariya"/>
+    <Card image={Image1} name="Vijay" para="Hello from Hajariya" handleclick={this.onClick}/>
     <Card image={Image2} name="Munni" para="Hello from Barahathawa"/>
     <Card image={Image3} name="Priya" para="Hello from Sudama"/>
     </div>
