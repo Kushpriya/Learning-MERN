@@ -1,5 +1,6 @@
 import React from "react";
-import Image1 from "../assets/image/img1.png";
+// import Image1 from "../assets/image/img1.png";
+// import Image2 from "../assets/image/img2.png";
 import "../assets/css/Card.css";
 
 class Card extends React.Component{
@@ -7,9 +8,10 @@ class Card extends React.Component{
         return(
             <div className="main">
                 <img src={this.props.image}/>
-            <h1>{this.props.title}</h1>
-            <p>{this.props.para}</p>
-</div>
+                <h1>{this.props.name}</h1>
+                <p>{this.props.para}</p>
+                
+            </div>
             
         )
     }
