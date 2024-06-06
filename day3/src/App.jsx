@@ -17,8 +17,8 @@ class App extends React.Component{
     return (
       <div>
         {
-          arr.map((data) => (
-            <Card  image={data.image} name={data.name} position={data.position}/>
+          arr.map((data,index) => (
+            <Card key={index} image={data.image} name={data.name} position={data.position}/>
           )
         )
         }
